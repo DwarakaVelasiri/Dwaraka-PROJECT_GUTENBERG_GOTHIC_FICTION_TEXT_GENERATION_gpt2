@@ -75,6 +75,32 @@ Validation Loss : 0.2594448818879969
 
 
 TRAINING LOSS : 3.422200(At Step : 40000)
+### Usage
+
+from transformers import GPT2Tokenizer, GPT2LMHeadModel
+
+# Loading the pre-trained GPT-2 model and tokenizer
+model_name = "Dwaraka/PROJECT_GUTENBERG_GOTHIC_FICTION_TEXT_GENERATION_gpt2"
+model = GPT2LMHeadModel.from_pretrained(model_name)
+tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+
+# Setting the model to generate the text
+model.eval()
+
+# Generating the text
+prompt = "Once upon a time, in a dark and spooky castle, there lived a"
+input_ids = tokenizer.encode(prompt, return_tensors="pt")
+output = model.generate(input_ids, max_length=50, do_sample=True)
+
+# Decoding the generated text
+generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
+
+# Printing the generated text
+print(generated_text)
+
+
+
+
 ### Framework versions
 
 - Transformers 4.26.1
