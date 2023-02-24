@@ -70,6 +70,10 @@ The following hyperparameters were used during training:
 - Gradient Accumulation steps =1
 ### Training results
 Validation Loss : 0.2594448818879969
+
+
+
+
 TRAINING LOSS : 3.422200(At Step : 40000)
 ### Framework versions
 
