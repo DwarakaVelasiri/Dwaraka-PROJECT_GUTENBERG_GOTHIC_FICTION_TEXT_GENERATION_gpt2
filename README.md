@@ -94,7 +94,7 @@ We can use this model directly with a pipeline for text generation.
 >>>generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
 >>># Printing the generated text
 >>>print(generated_text)
-
+```
 
 
 
