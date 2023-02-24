@@ -5,6 +5,9 @@ tags:
 model-index:
 - name: PROJECT_GUTENBERG_GOTHIC_FICTION_TEXT_GENERATION_gpt2
   results: []
+language:
+- en
+library_name: transformers
 ---
 
 <!-- This model card has been generated automatically according to the information the Trainer had access to. You
