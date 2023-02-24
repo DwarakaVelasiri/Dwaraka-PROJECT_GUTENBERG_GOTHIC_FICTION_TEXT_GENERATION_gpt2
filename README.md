@@ -37,8 +37,10 @@ The Lock and Key Library :Classic Mystery and Detectives Stories: Old Time, Cale
 , The Private Memoirs and confessions of a justified sinner, Confessions of an English Opium Eater, The mysteries of udolpho, Wieland;Or,The Transformation: An American Tale by Charles Brocken Brown, The Castle of Otranto
 
 ## Intended uses & limitations
-
-More information needed
+Uses:
+  This model can be used for creative writing, content generation, language modeling, language learning,  
+Limitations:
+Since the model is trained on the text related to Gothic Fiction, it might not do well in generating the text from a different genre.
 
 ## Training and evaluation data
 
