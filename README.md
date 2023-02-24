@@ -56,6 +56,9 @@ The TESTING_CORPPUS is the random text manually picked from the TRAINING_CORPPUS
 Can be accessed at - (https://huggingface.co/datasets/Dwaraka/Testing_Dataset_of_Project_Gutebberg_Gothic_Fiction)
 
 ## Training procedure
+As the initializer, the training dataset will be loaded, and tokenized further,where the plain text will be converted into GPT-2 understandable format.
+To make sure that all the tokenized sequences have the same size, padding tokens will be added.
+The tokenized data is then passed as the input to GPT-2 for fine-tuning.
 
 ### Training hyperparameters
 
