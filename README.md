@@ -15,7 +15,9 @@ should probably proofread and complete it, then remove this comment. -->
 
 # PROJECT_GUTENBERG_GOTHIC_FICTION_TEXT_GENERATION_gpt2
 
-This model is a fine-tuned version of [gpt2](https://huggingface.co/gpt2) on an unknown dataset.
+This model is a fine-tuned version of [gpt2](https://huggingface.co/gpt2) trained on the dataset of text from Project Guttenberg(https://www.gutenberg.org/), 
+From which we picked the contents of 12 books related to Gothic Fiction which has 1051518 Words and 6002980 characters to perform the Text-Generation 
+for the same Genre .
 
 ## Model description
 
