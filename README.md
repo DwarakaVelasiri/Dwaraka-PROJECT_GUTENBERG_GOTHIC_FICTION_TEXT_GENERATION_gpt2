@@ -70,17 +70,7 @@ The following hyperparameters were used during training:
 - Gradient Accumulation steps =1
 ### Training results
 Validation Loss : 0.2594448818879969
-
-STEP	TRAINING LOSS
-5000	4.019500
-10000	3.904800
-15000	3.630800
-20000	3.633800
-25000	3.588200
-30000	3.437600
-35000	3.417000
-40000	3.422200
-
+TRAINING LOSS : 3.422200(At Step : 40000)
 ### Framework versions
 
 - Transformers 4.26.1
