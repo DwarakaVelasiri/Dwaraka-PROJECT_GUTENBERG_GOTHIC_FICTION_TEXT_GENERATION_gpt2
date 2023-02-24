@@ -19,6 +19,7 @@ This model is a fine-tuned version of [gpt2](https://huggingface.co/gpt2) traine
 From which we picked the contents of 12 books related to Gothic Fiction which has 1051518 Words and 6002980 characters to perform the Text-Generation 
 for the same Genre .
 
+Can be used to generate the text of the vocabulary and writing style : GOTHIC FICTION.
 ## Model description
 
 More information needed
