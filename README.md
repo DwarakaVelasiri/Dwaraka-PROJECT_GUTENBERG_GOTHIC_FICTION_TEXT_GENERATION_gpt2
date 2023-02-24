@@ -10,6 +10,7 @@ language:
 library_name: transformers
 datasets:
 - Dwaraka/Training_Dataset_of_Project_Gutebberg_Gothic_Fiction
+- Dwaraka/Testing_Dataset_of_Project_Gutebberg_Gothic_Fiction
 ---
 
 <!-- This model card has been generated automatically according to the information the Trainer had access to. You
